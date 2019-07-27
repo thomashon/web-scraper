@@ -1,4 +1,5 @@
-# Übung 5 und 6
+# web scraper
+simple web scraper for events
 
 Für die Scrapper wurden die Seiten
 - https://www.hall-tirol.at/veranstaltungen und
@@ -10,3 +11,4 @@ Für Übung 6 wurde TfidfVectorizer von sklearn.feature_extraction.text verwendet,
 Nach händischer Nachprüfung wurde die threshold auf 20% gesetzt.
 Events, die sich zu ähnlich sind, werden nicht in der DB gespeichert.
 Davon waren letztlich 2 von 83 Events betroffen.
+
